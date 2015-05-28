@@ -1,137 +1,83 @@
-body {
+img.bg {
+  min-height: 100%;
+  min-width: 1024px;
   width: 100%;
-  font-family: sans-serif;
-  margin: 0;
-  padding: 0;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-header {
-  height: 100px;
-  display: -webkit-flex;
-  -webkit-justify-content: flex-end;
-}
-
-header nav {
-  width: 50%;
-  height: 100%;
-  margin-right: 50px;
-  display: -webkit-flex;
-  -webkit-align-items: center;
-  -webkit-justify-content: space-around;
-}
-
-header nav a {
-  flex-basis: 30%;
-  white-space: nowrap;
-  text-decoration: none;
-  color: #333;
-  font-weight: 900;
-  height: 100%;
-  line-height: 100px;
-  text-align: center;
-}
-
-header nav a::after {
-  content: "";
-  display: block;
-  position: relative;
-  width: 0;
-  top: -3px;
-  margin: 0 auto;
-  height: 15px;
-  border-top: 5px solid #299;
-  -webkit-transition: all .3s ease-in;
-}
-
-header nav a:hover::after {
-  width: 100%;
-}
-
-.box {
-  background-color: #333;
-  background-image: repeating-linear-gradient(45deg, transparent 0, transparent 10%, tomato 11%, tomato 10%), repeating-linear-gradient(-45deg, transparent 0, transparent 10%, tomato 11%, tomato 10%), repeating-linear-gradient(180deg, transparent 0, transparent 10%, tomato 11%, tomato 11%);
-  background-blend-mode: difference;
-  line-height: 1.4;
-  padding: 50px 0;
-}
-
-.box .container {
-  display: -webkit-flex;
-  -webkit-flex-flow: row wrap;
-  -webkit-justify-content: center;
-  -webkit-align-items: center;
-}
-
-.box h3 {
-  color: white;
-  text-transform: uppercase;
-  text-align: center;
-  position: relative;
-}
-
-.box h3::after {
-  content: "";
-  position: absolute;
-  width: 40px;
-  height: 5px;
-  background: white;
-  top: 50%;
-  right: 0;
-  display: block;
-  -webkit-transform: translateY(-50%);
-}
-
-.box h3::before {
-  content: "";
-  position: absolute;
-  display: block;
-  width: 40px;
-  height: 5px;
-  background: white;
-  top: 50%;
+  height: auto;
+  position: fixed;
+  top: 0;
   left: 0;
-  -webkit-transform: translateY(-50%);
+  z-index: -2;
 }
 
-.box .container .box-child {
-  flex: 0 0 30%;
+.blur {
+  height: 250px;
+  width: 100%;
+  margin: -20px auto;
+  z-index: -1;
+  position: relative;
+  filter: blur(10px);
+  -webkit-filter: blur(10px);
+  -moz-filter: blur(10px);
+  -o-filter: blur(10px);
+  -ms-filter: blur(10px);
+  filter: url(#blur);
+  filter: progid: DXImageTransform.Microsoft.Blur(PixelRadius='10');
+  overflow: hidden;
 }
 
-.box .container .box-child:first-child img {
-  display: block;
-  min-width: 150px;
-  min-height: 150px;
-  max-width: 300px;
-  max-height: 300px;
-  width: 20vw;
-  border-radius: 50%;
-  -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 90%, 0% 90%, 0% 0%);
-  border: 5px solid white;
+.blur:after {
+  content: '';
+  height: 100%;
+  width: 100%;
+  background: rgba(255, 255, 255, .25);
+  position: absolute;
 }
 
-.box .container .box-child:nth-child(n+2) p {
-  color: white;
-  background-image: repeating-linear-gradient(45deg, tomato 0, tomato 50%, white 11%, white 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-size: 16px;
+.widget {
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+  height: 200px;
+  width: 100%;
+  overflow: hidden;
 }
 
-@media screen and (max-width: 768px) {
-  .box .container .box-child {
-    -webkit-flex-direction: cloumn;
-    flex-basis: 100%;
-  }
-
-  .container {
-    padding: 50px 20px;
-  }
-
-  .box img {
-    margin: 0 auto;
-  }
+.center {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
+/*  ////////  NOT REQUIRED  //////////  */
+
+.text {
+  height: 200px;
+  width: 240px;
+}
+
+.text h1 {
+  text-align: center;
+  color: #3b3b3b;
+  margin-top: 70px;
+  font-family: 'Arvo', serif;
+  font-weight: 400;
+  font-size: 36px;
+}
+
+.text p {
+  text-align: center;
+  color: #3b3b3b;
+  margin-top: 0px;
+  font-family: 'Lato', serif;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.text h2 {
+  text-align: left;
+  color: #3b3b3b;
+  margin-top: 70px;
+  font-family: 'Arvo', serif;
+  font-weight: 400;
+  font-size: 36px;
