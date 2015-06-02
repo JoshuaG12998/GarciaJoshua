@@ -24,16 +24,6 @@
 
 <section id="A" class="js-scroll-step">
   <div class="icon1">
-		<div class="text2">
-			</div>	
-			<div width="150px">
-			<img class="space" src="images/social122.png" alt="" style="width:24px;height:24px">
-			<img class="space" src="images/google124.png" alt="" style="width:24px;height:24px">
-			<img class="space" src="images/social135.png" alt="" style="width:24px;height:24px">
-			<img class="space" src="images/social136.png" alt="" style="width:24px;height:24px">
-			<img class="space" src="images/instagram19.png" alt="" style="width:24px;height:24px">
-			</div>
-		</div>
 		<center class="name">Joshua Garcia</center>
 		
 		
@@ -43,7 +33,11 @@
   <center class="aboutme">ABOUT ME</center>
 		<hr class="line2"w idth="30%">
 		<center class="about">
-È universalmente riconosciuto che un lettore che osserva il layout di una pagina viene distratto dal contenuto testuale se questo è leggibile. Lo scopo dell’utilizzo del Lorem Ipsum è che offre una normale distribuzione delle lettere (al contrario di quanto avviene se si utilizzano brevi frasi ripetute, ad esempio “testo qui”), apparendo come un normale blocco di testo leggibile. Molti software di impaginazione e di web design utilizzano Lorem Ipsum come testo modello. Molte versioni del testo sono state prodotte negli anni, a volte casualmente, a volte di proposito (ad esempio inserendo passaggi ironici).</center>
+			My name is Joshua Garcia and I attend Pasadena High School. I mainly a front end developer and know languages such ass PHP, HTML,
+			 CSS, and JavaScript.
+
+
+		</center>
 </section>
 
 <section id="C" class="js-scroll-step">
@@ -63,11 +57,11 @@
   		<center class="projects">CONTACT</center>
 		<hr class="line2" color="white" width="30%">
   		<div class="contact">
-  			<p>Email: lucaveca@gmail.com
-  			<p>Phone: 917-680-6642
-  			<p>Intagram: @Wolfgang_13
-  			<p>Twitter: @lucaveca
-  			<p>Tumblr: xxlucavecaxx
+  			<p>Email: J.Garcia12998@gmail.com
+  			<p>Phone: 626-423-7644
+  			<p>Intagram: @Josh_Echelon
+  			<p>Twitter: @Josh_Garcia
+  			<p>Linkedin: Joshua12998 
   			
   		</div>
   		<!-- Button trigger modal -->
