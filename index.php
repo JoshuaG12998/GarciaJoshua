@@ -44,11 +44,11 @@
 		<center class="projects">PROJECTS</center>
 		<hr class="line2" color="white" width="30%">
 		<div class="set1">
-		<a href="http://localhost/appacademyapi/index.php"><img class="spaces" src="images/api.png" alt="" height="240" width="520"></a>
-		<a href="http://localhost/todo-list2/todo-list.php"><img src="images/todo.png" alt="" height="240" width="520"></a>
+		<a href="http://localhost/appacademyapi/index.php"><img class="spaces" src="images/appapi.png" alt="" height="240" width="520"></a>
+		<a href="http://localhost/JoshuaGAwesomenauts/index.php"><img src="images/Awesome.png" alt="" height="240" width="520"></a>
 		</div>
 		<div class="set2">
-		<a href="http://localhost/PHPblog/login.php"><img class="spaces" src="images/blog.png" alt="" height="240" width="520"></a>
+		<a href="http://localhost/todo-list2/index.php"><img class="spaces" src="images/Todo!.png" alt="" height="240" width="520"></a>
 		<a href="https://instagram.com/wolfgang_13"><img src="images/insta.png" alt="" height="240" width="520"></a>
 		</div>
 </section>
@@ -65,9 +65,7 @@
   			
   		</div>
   		<!-- Button trigger modal -->
-<button type="button" class="btns" data-toggle="modal" data-target="#myModal">
-  Your Info
-</button>
+
 
 <!-- Modal -->
 <div class="modal fade" id="myModal"  role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
