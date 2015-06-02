@@ -49,7 +49,7 @@
 		</div>
 		<div class="set2">
 		<a href="http://localhost/todo-list2/index.php"><img class="spaces" src="images/Todo!.png" alt="" height="240" width="520"></a>
-		<a href="https://instagram.com/wolfgang_13"><img src="images/insta.png" alt="" height="240" width="520"></a>
+		<a href="localhost/Project-1-master/home.html"><img src="images/First.png" alt="" height="240" width="520"></a>
 		</div>
 </section>
 

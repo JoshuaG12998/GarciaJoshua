@@ -278,7 +278,7 @@ section {
  
 }
 #B {
-	background: url(../images/water.jpg) no-repeat center center fixed; 
+	background: url(../images/sea.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -286,7 +286,7 @@ section {
   height: 800px;
 }
 #C {
- background: url(../images/surf7.jpg) no-repeat center center fixed; 
+ background: url(../images/sun.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -301,7 +301,7 @@ section {
   height: 800px;
 }
 #E {
-	background: url(../images/surf.jpg) no-repeat center center fixed; 
+	background: url(../images/mountain2.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
